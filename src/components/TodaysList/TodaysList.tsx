@@ -4,6 +4,8 @@ import moment from "moment";
 import { ItemModel } from "../AddItem/ItemModel";
 import ListItem from "../ListItem/ListItem";
 
+import "./TodaysList.scss";
+
 interface ReceivingListModel {
   List: ItemModel[];
   delete: (id: string) => void;

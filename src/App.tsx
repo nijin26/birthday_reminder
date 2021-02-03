@@ -44,14 +44,14 @@ const App: React.FC = () => {
 
       <ul className={classes.container_tab}>
         <li className={cx({ [classes.active]: tab === "today" })}>
-          <a onClick={() => setTab("today")}>
+          <div onClick={() => setTab("today")}>
             <span>Today</span>
-          </a>
+          </div>
         </li>
         <li className={cx({ [classes.active]: tab === "tomorrow" })}>
-          <a onClick={() => setTab("tomorrow")}>
+          <div onClick={() => setTab("tomorrow")}>
             <span>Tomorrow</span>
-          </a>
+          </div>
         </li>
       </ul>
       <div

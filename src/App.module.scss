@@ -23,7 +23,7 @@
     font-size: 24px;
     text-transform: uppercase;
     list-style: none;
-    a {
+    div {
       border-bottom: 4px solid transparent;
       border-radius: 8px;
       padding-bottom: 10px;
@@ -32,7 +32,7 @@
 }
 
 .active {
-  a {
+  div {
     border-bottom: 4px solid #0966c2;
     border-radius: 8px;
     padding-bottom: 10px;
