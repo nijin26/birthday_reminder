@@ -4,7 +4,7 @@ import moment from "moment";
 import { ItemModel } from "../AddItem/ItemModel";
 import ListItem from "../ListItem/ListItem";
 
-import "./TodaysList.scss";
+import classes from "./TodaysList.module.scss";
 
 interface ReceivingListModel {
   List: ItemModel[];
@@ -28,7 +28,7 @@ const TodaysList: React.FC<ReceivingListModel> = (props) => {
 
   return (
     <div>
-      <h3>
+      <h3 className={classes.heading}>
         {today.length > 1
           ? `${today.length} Birthdays Today`
           : `${today.length} Birthday Today`}

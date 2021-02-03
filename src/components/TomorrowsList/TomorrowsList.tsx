@@ -4,6 +4,8 @@ import ListItem from "../ListItem/ListItem";
 
 import moment from "moment";
 
+import classes from "./TomorrowsList.module.scss";
+
 interface ReceivingListModel {
   List: ItemModel[];
   delete: (id: string) => void;
@@ -28,7 +30,7 @@ const TomorrowsList: React.FC<ReceivingListModel> = (props) => {
 
   return (
     <div>
-      <h3>
+      <h3 className={classes.heading}>
         {tomorrow.length > 1
           ? `${tomorrow.length} Birthdays Tomorrow`
           : `${tomorrow.length} Birthday Tomorrow`}

@@ -2,7 +2,7 @@
   "name": "birthday-reminder",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://nijin26.github.io/Birthday-Reminder-App---React-Typescript",
+  "homepage": "http://nijin26.github.io/Birthday-Reminder-App---React-Typescript/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
@@ -12,6 +12,7 @@
     "@types/react": "^16.14.2",
     "@types/react-dom": "^16.9.10",
     "classnames": "^2.2.6",
+    "gh-pages": "^3.1.0",
     "moment": "^2.29.1",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
@@ -24,10 +25,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -51,7 +52,6 @@
     "@types/classnames": "^2.2.11",
     "@types/node-sass": "^4.11.1",
     "@types/react-datepicker": "^3.1.3",
-    "gh-pages": "^3.1.0",
     "css-loader": "^5.0.1",
     "sass-loader": "^10.1.1",
     "style-loader": "^2.0.0"
