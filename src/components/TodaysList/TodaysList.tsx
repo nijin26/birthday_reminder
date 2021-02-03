@@ -38,6 +38,7 @@ const TodaysList: React.FC<ReceivingListModel> = (props) => {
           id={item.id}
           name={item.enteredName}
           date={item.selectedDate}
+          image={item.enteredImageLink}
           delete={props.delete}
         />
       ))}

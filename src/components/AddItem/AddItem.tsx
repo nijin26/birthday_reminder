@@ -8,6 +8,7 @@ import classes from "./AddItem.module.scss";
 
 interface AddItemModel {
   addItem: (data: ItemModel) => void;
+  close: () => void;
 }
 
 const AddItem: React.FC<AddItemModel> = (props: AddItemModel) => {
@@ -31,6 +32,9 @@ const AddItem: React.FC<AddItemModel> = (props: AddItemModel) => {
 
   return (
     <form onSubmit={submitHandler} className={classes.container}>
+      <button className={classes.close_btn} onClick={props.close}>
+        x
+      </button>
       <label htmlFor="inputName">Name:</label>
       <input type="text" id="inputName" ref={nameRef} />
       <label htmlFor="inputDate">Date Of Birth:</label>

@@ -9,7 +9,8 @@ import cx from "classnames";
 
 const App: React.FC = () => {
   const [datas, setData] = React.useState<ItemModel[]>([]);
-  const [tab, setTab] = React.useState<boolean>(true);
+  const [tab, setTab] = React.useState<string>("today");
+  const [toggle, setToggle] = React.useState<boolean>(false);
 
   React.useEffect(() => {
     const localData = localStorage.getItem("dataList");
@@ -33,10 +34,36 @@ const App: React.FC = () => {
   return (
     <div className={classes.container}>
       <h2>Birthday Reminder</h2>
-      <AddItem addItem={addItemHandler} />
-      <div className={classes.container_tab}>
+      {toggle ? (
+        <AddItem addItem={addItemHandler} close={() => setToggle(false)} />
+      ) : (
+        <button className={classes.btn} onClick={() => setToggle(true)}>
+          Set a Reminder
+        </button>
+      )}
+
+      <ul className={classes.container_tab}>
+        <li className={cx({ [classes.active]: tab === "today" })}>
+          <a onClick={() => setTab("today")}>
+            <span>Today</span>
+          </a>
+        </li>
+        <li className={cx({ [classes.active]: tab === "tomorrow" })}>
+          <a onClick={() => setTab("tomorrow")}>
+            <span>Tomorrow</span>
+          </a>
+        </li>
+      </ul>
+      <div
+        className={classes.tab_content}
+        style={tab === "today" ? { display: "block" } : { display: "none" }}
+      >
         <TodaysList List={datas} delete={deleteItemHandler} />
-        <hr />
+      </div>
+      <div
+        className={classes.tab_content}
+        style={tab === "tomorrow" ? { display: "block" } : { display: "none" }}
+      >
         <TomorrowsList List={datas} delete={deleteItemHandler} />
       </div>
     </div>

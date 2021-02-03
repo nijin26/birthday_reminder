@@ -5,6 +5,8 @@
   height: max-content;
   border-radius: 10px;
   box-shadow: 0 3px 8px 2px #cccccc;
+  animation: intro 1s;
+  position: relative;
 
   label {
     display: block;
@@ -41,4 +43,36 @@
   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   width: 100%;
+}
+
+.tab_content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.close_btn {
+  border: none;
+  background-color: red;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 0 5px 8px #cccccc;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+@keyframes intro {
+  0% {
+    opacity: 10%;
+  }
+  50% {
+    opacity: 60%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
