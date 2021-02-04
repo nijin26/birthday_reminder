@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/Birthday-Reminder-App---React-Typescript/static/css/main.a35b161e.chunk.css",
-    "main.js": "/Birthday-Reminder-App---React-Typescript/static/js/main.ead873f8.chunk.js",
-    "main.js.map": "/Birthday-Reminder-App---React-Typescript/static/js/main.ead873f8.chunk.js.map",
-    "runtime-main.js": "/Birthday-Reminder-App---React-Typescript/static/js/runtime-main.1c58271a.js",
-    "runtime-main.js.map": "/Birthday-Reminder-App---React-Typescript/static/js/runtime-main.1c58271a.js.map",
-    "static/css/2.00850458.chunk.css": "/Birthday-Reminder-App---React-Typescript/static/css/2.00850458.chunk.css",
-    "static/js/2.2200a96c.chunk.js": "/Birthday-Reminder-App---React-Typescript/static/js/2.2200a96c.chunk.js",
-    "static/js/2.2200a96c.chunk.js.map": "/Birthday-Reminder-App---React-Typescript/static/js/2.2200a96c.chunk.js.map",
-    "index.html": "/Birthday-Reminder-App---React-Typescript/index.html",
-    "static/css/2.00850458.chunk.css.map": "/Birthday-Reminder-App---React-Typescript/static/css/2.00850458.chunk.css.map",
-    "static/css/main.a35b161e.chunk.css.map": "/Birthday-Reminder-App---React-Typescript/static/css/main.a35b161e.chunk.css.map",
-    "static/js/2.2200a96c.chunk.js.LICENSE.txt": "/Birthday-Reminder-App---React-Typescript/static/js/2.2200a96c.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.a35b161e.chunk.css",
+    "main.js": "/static/js/main.a56a7cf1.chunk.js",
+    "main.js.map": "/static/js/main.a56a7cf1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9f67c728.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9f67c728.js.map",
+    "static/css/2.00850458.chunk.css": "/static/css/2.00850458.chunk.css",
+    "static/js/2.95ef8f98.chunk.js": "/static/js/2.95ef8f98.chunk.js",
+    "static/js/2.95ef8f98.chunk.js.map": "/static/js/2.95ef8f98.chunk.js.map",
+    "static/js/3.57dce120.chunk.js": "/static/js/3.57dce120.chunk.js",
+    "static/js/3.57dce120.chunk.js.map": "/static/js/3.57dce120.chunk.js.map",
+    "index.html": "/index.html",
+    "service-worker.js": "/service-worker.js",
+    "service-worker.js.map": "/service-worker.js.map",
+    "static/css/2.00850458.chunk.css.map": "/static/css/2.00850458.chunk.css.map",
+    "static/css/main.a35b161e.chunk.css.map": "/static/css/main.a35b161e.chunk.css.map",
+    "static/js/2.95ef8f98.chunk.js.LICENSE.txt": "/static/js/2.95ef8f98.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c58271a.js",
+    "static/js/runtime-main.9f67c728.js",
     "static/css/2.00850458.chunk.css",
-    "static/js/2.2200a96c.chunk.js",
+    "static/js/2.95ef8f98.chunk.js",
     "static/css/main.a35b161e.chunk.css",
-    "static/js/main.ead873f8.chunk.js"
+    "static/js/main.a56a7cf1.chunk.js"
   ]
 }
