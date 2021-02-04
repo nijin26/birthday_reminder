@@ -22,7 +22,7 @@
     }
   ]
   ,
-  "start_url": "/",
+  "start_url": "/Birthday-Reminder-App---React-Typescript/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
