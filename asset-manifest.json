@@ -1,27 +1,23 @@
 {
   "files": {
     "main.css": "/Birthday-Reminder-App---React-Typescript/static/css/main.a35b161e.chunk.css",
-    "main.js": "/Birthday-Reminder-App---React-Typescript/static/js/main.e9b26db5.chunk.js",
-    "main.js.map": "/Birthday-Reminder-App---React-Typescript/static/js/main.e9b26db5.chunk.js.map",
-    "runtime-main.js": "/Birthday-Reminder-App---React-Typescript/static/js/runtime-main.1a68b9fe.js",
-    "runtime-main.js.map": "/Birthday-Reminder-App---React-Typescript/static/js/runtime-main.1a68b9fe.js.map",
+    "main.js": "/Birthday-Reminder-App---React-Typescript/static/js/main.ead873f8.chunk.js",
+    "main.js.map": "/Birthday-Reminder-App---React-Typescript/static/js/main.ead873f8.chunk.js.map",
+    "runtime-main.js": "/Birthday-Reminder-App---React-Typescript/static/js/runtime-main.1c58271a.js",
+    "runtime-main.js.map": "/Birthday-Reminder-App---React-Typescript/static/js/runtime-main.1c58271a.js.map",
     "static/css/2.00850458.chunk.css": "/Birthday-Reminder-App---React-Typescript/static/css/2.00850458.chunk.css",
-    "static/js/2.95ef8f98.chunk.js": "/Birthday-Reminder-App---React-Typescript/static/js/2.95ef8f98.chunk.js",
-    "static/js/2.95ef8f98.chunk.js.map": "/Birthday-Reminder-App---React-Typescript/static/js/2.95ef8f98.chunk.js.map",
-    "static/js/3.57dce120.chunk.js": "/Birthday-Reminder-App---React-Typescript/static/js/3.57dce120.chunk.js",
-    "static/js/3.57dce120.chunk.js.map": "/Birthday-Reminder-App---React-Typescript/static/js/3.57dce120.chunk.js.map",
+    "static/js/2.2200a96c.chunk.js": "/Birthday-Reminder-App---React-Typescript/static/js/2.2200a96c.chunk.js",
+    "static/js/2.2200a96c.chunk.js.map": "/Birthday-Reminder-App---React-Typescript/static/js/2.2200a96c.chunk.js.map",
     "index.html": "/Birthday-Reminder-App---React-Typescript/index.html",
-    "service-worker.js": "/Birthday-Reminder-App---React-Typescript/service-worker.js",
-    "service-worker.js.map": "/Birthday-Reminder-App---React-Typescript/service-worker.js.map",
     "static/css/2.00850458.chunk.css.map": "/Birthday-Reminder-App---React-Typescript/static/css/2.00850458.chunk.css.map",
     "static/css/main.a35b161e.chunk.css.map": "/Birthday-Reminder-App---React-Typescript/static/css/main.a35b161e.chunk.css.map",
-    "static/js/2.95ef8f98.chunk.js.LICENSE.txt": "/Birthday-Reminder-App---React-Typescript/static/js/2.95ef8f98.chunk.js.LICENSE.txt"
+    "static/js/2.2200a96c.chunk.js.LICENSE.txt": "/Birthday-Reminder-App---React-Typescript/static/js/2.2200a96c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1a68b9fe.js",
+    "static/js/runtime-main.1c58271a.js",
     "static/css/2.00850458.chunk.css",
-    "static/js/2.95ef8f98.chunk.js",
+    "static/js/2.2200a96c.chunk.js",
     "static/css/main.a35b161e.chunk.css",
-    "static/js/main.e9b26db5.chunk.js"
+    "static/js/main.ead873f8.chunk.js"
   ]
 }
